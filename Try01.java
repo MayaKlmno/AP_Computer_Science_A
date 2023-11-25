@@ -1,7 +1,12 @@
 public class Try01 {
-    public static void main(String[] args) {
-      String txt = "Hello World";
-      System.out.println(txt.toUpperCase());
-      System.out.println(txt.toLowerCase());
+  public static int diff21(int n) {
+    if(Math.abs(21-n) > 21){
+      return Math.abs(21-n) * 2;
     }
+    return Math.abs(21-n);
+  }
+  public static void main(String[] args){
+    int h = diff21(22);
+  }
+  
   }
